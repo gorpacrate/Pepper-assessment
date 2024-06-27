@@ -1,0 +1,9 @@
+.postAdd {
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
