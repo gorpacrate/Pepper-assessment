@@ -1,2 +1,5 @@
-bun install
-bun dev
+`bun install`  
+`bun dev`  
+or  
+`npm install`  
+`npm run dev`
