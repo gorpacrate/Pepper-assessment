@@ -71,9 +71,7 @@ export const usePostsStore = create<State & Actions>()(
       const data: PostsResponse = await fetch(
         `https://dummyjson.com/posts${
           pagination
-            ? `?limit=${pagination.limit}&skip=${
-                pagination.skip + get().posts.length
-              }`
+            ? `?limit=${pagination.limit}&skip=${get().posts.length}`
             : ""
         }`
       ).then((res) => res.json());
